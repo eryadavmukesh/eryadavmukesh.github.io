@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mukesh Yadav - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .project-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold">Mukesh Yadav</h1>
+      <p class="text-xl mt-2">Data Scientist | Computer Vision & Generative AI Expert</p>
+      <p class="mt-4 max-w-2xl mx-auto">
+        I specialize in building innovative solutions in computer vision, Generative AI, and LLMs for industries like tobacco, oil & gas, and healthcare. Explore my projects below!
+      </p>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-8">Skills</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Python</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Java</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">TensorFlow</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">PyTorch</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">OpenCV</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">InspectAI</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">LangChain</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">LangGraph</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">GANs</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Diffusion Models</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">RAG</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Transformers</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Azure</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">AWS</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Docker</span>
+        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Git</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-8">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Thought of the Day -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Thought of the Day Generator</h3>
+          <p class="mt-2 text-gray-600">PoC for generating daily inspirational quotes using a fine-tuned LLM.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, LangChain, Transformers</p>
+          <a href="https://github.com/eryadavmukesh/thought-of-the-day" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- Contract Analysis -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Contract Analysis System</h3>
+          <p class="mt-2 text-gray-600">PoC for automated contract analysis, extracting key clauses with NLP and LLMs.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, LangGraph, RAG</p>
+          <a href="https://github.com/eryadavmukesh/contract_analysis" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- LLM Guardrails -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">LLM Guardrails</h3>
+          <p class="mt-2 text-gray-600">PoC for enforcing safety and compliance in LLM outputs for secure AI interactions.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, LangChain, LLM Guardrails</p>
+          <a href="https://github.com/eryadavmukesh/llm_guardrails" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- Service Catalog Interaction -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Service Catalog Interaction</h3>
+          <p class="mt-2 text-gray-600">PoC for an LLM-based interactive service catalog with natural language queries.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, LangGraph, Transformers</p>
+          <a href="https://github.com/eryadavmukesh/service_catalog_interaction" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- Model Context Protocol -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Model Context Protocol</h3>
+          <p class="mt-2 text-gray-600">PoC for a context-aware protocol to improve LLM coherence in multi-turn conversations.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, LangChain, RAG</p>
+          <a href="https://github.com/eryadavmukesh/model_context_protocol" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- Tobacco Leaf Inspection -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Tobacco Leaf Quality Inspection</h3>
+          <p class="mt-2 text-gray-600">Automated tobacco leaf inspection system using InspectAI and computer vision.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, InspectAI, OpenCV, TensorFlow</p>
+          <a href="https://github.com/eryadavmukesh/tobacco-inspection" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- Oil & Gas Pipeline -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Oil & Gas Pipeline Anomaly Detection</h3>
+          <p class="mt-2 text-gray-600">Real-time computer vision system for detecting pipeline anomalies.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, PyTorch, OpenCV, AWS</p>
+          <a href="https://github.com/eryadavmukesh/pipeline-monitoring" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- Healthcare Voice Q&A -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Healthcare Voice Q&A System</h3>
+          <p class="mt-2 text-gray-600">Voice-based Q&A for healthcare using speech-to-text and RAG.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, PyTorch, RAG, Sarvam-M</p>
+          <a href="https://github.com/eryadavmukesh/healthcare-qa" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+        <!-- Generative Art Model -->
+        <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold">Generative Art Model</h3>
+          <p class="mt-2 text-gray-600">Generative AI model for creating artwork using diffusion models.</p>
+          <p class="mt-2 text-sm text-gray-500"><strong>Technologies</strong>: Python, PyTorch, Diffusion Models</p>
+          <a href="https://github.com/eryadavmukesh/art-generator" class="mt-4 inline-block text-blue-600 font-semibold hover:underline">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-8">Contact</h2>
+      <p class="mb-4">Open to collaborations and discussions on AI and data science.</p>
+      <div class="flex justify-center gap-6">
+        <a href="https://www.linkedin.com/in/eryadavmukesh/" class="text-blue-600 hover:underline">LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCEhl8ROa9ayyYJ64DpMG9OQ/featured" class="text-blue-600 hover:underline">YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Mukesh Yadav. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
